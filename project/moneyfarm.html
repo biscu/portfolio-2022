@@ -1,0 +1,434 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Moneyfarm 2FA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+
+  <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/loco.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <style>
+    @font-face {
+      font-family: "nicefont";
+      src: url("../font/font.woff") format("woff");
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "nicefont2";
+      src: url("../font/font2.otf") format("opentype");
+      font-weight: 200;
+      font-style: normal;
+      font-display: swap;
+    }
+    </style>
+    <link rel="preload" href="../font/font.woff" as="font" crossorigin>
+    <link rel="preload" href="../font/font2.otf" as="font" crossorigin>
+
+
+
+  <!-- Loader -->
+</head>
+
+
+
+<body data-barba="wrapper">
+
+  
+
+
+
+  <main data-barba="container" data-barba-namespace="moneyfarm" data-scroll-container>
+
+
+    <div class="loader-container" id="loader">
+        <div class="loader">
+              <div class="loader-inner">
+                  <span class="loader-text">Davide Biscuso</span>
+              </div>   
+          </div>
+      </div>
+
+
+    <div class="wrapper">
+    <div class="navbar">
+      <a class="nav-link op" href="../index.html">Index</a>
+      <a class="nav-link op" href="fabric.html">Fabric</a>
+      <a class="nav-link op" href="hm.html">H&M</a>
+      <a class="nav-link op" href="handy.html">Handy</a>
+      <a class="nav-link op" href="moneyfarm.html">Moneyfarm</a>
+      <a class="nav-link op" href="ui-kits.html">UI Kits</a>
+      <!-- <a class="nav-link op" href="playground.html">Playground</a> -->
+    </div>
+  </div>
+
+  <main class="lift-animation">
+
+
+  <!-- Add your site or application content here -->
+  <Section data-scroll-section>
+    <div class="wrapper center pt-220 mb-120">
+      <div class="header-inner">
+        <h1 class="header t-animated op mb-8">Moneyfarm 2FA</h1>
+      </div>
+      <div class="sub-header-inner">
+        <p class="sub-header p-animated op">How we designed and shipped a new cross platoform and holistic two factor authentication experience for our customers.</p>
+      </div>
+    </div>
+  </Section>
+
+
+
+  <Section>
+    <div class="wrapper align-center">
+      <div class="project-img-inner">
+        <img src="../img/moneyfarm/mfm-hero.png" class="project-img i-animated op"/>
+      </div>
+    </div>
+  </Section>
+
+
+
+  <Section>
+    <div class="wrapper mt-80 mb-80">
+        <div class="container-h">
+            <div class="col"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The problem</h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">Relying solely on a regular login using email and password is a potential security risk for our customers. In addition to that, for certain customers, the perceived risk of not having two-factor authentication is very high, leading to a decrease in trust of the Moneyfarm platform and the company as a whole.</p>
+                </div>
+            </div>
+            <div class="col"> 
+              <div class="title-inner">
+                  <h2 class="title mb-8 t-animated op">The solution</h2>
+              </div>
+              <div class="paragraph-inner">
+                  <p class="paragraph p-animated op">Provide an easy to use solution for two-factor authentication login, leveraging the MultiFactor capabilities of our authentication provider Auth0. </p>
+              </div>
+          </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-180 mb-180">
+        <div class="container-v">
+            <div class="jumbo-container">
+                <div class="jumbo-inner centered">
+                    <h2 class="jumbo t-animated op">Discover</h2>
+                </div>
+                <div class="paragraph-inner centered">
+                  <p class="paragraph p-animated op">Understand the problem and turn it into an opportunity for the business and the customers. Align with all the team and stakeholders and sketch out solutions.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+
+
+  <Section>
+    <div class="wrapper mt-120 mb-180">
+        <div class="container-h">
+            <div class="col"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">Customer feedback</h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">Potential customers were expressing their concern to our CRM team in opening an account with Moneyfarm given the lack of security functionality that is a standard in the financial domain. Current customers kept asking for this new layer of security in the app reviews.</p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/01-2fa-customers-feedback.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-120 mb-1">
+        <div class="container-h">
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/02-2fa-requirements.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+            <div class="col"> 
+              <div class="title-inner">
+                  <h2 class="title mb-8 t-animated op">Gathering requirements </h2>
+              </div>
+              <div class="paragraph-inner">
+                  <p class="paragraph p-animated op">We gathered with product owners and developers to understand the scope of the project, the feasibility given by our third-party provider, and the desired outcome of the feature. </p>
+              </div>
+          </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-120 mb-180">
+        <div class="container-h">
+            <div class="col"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">Mapping the user journey</h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">I started mapping out the user journey while asking questions the various expert such as developers and product owners. The journey flow was then divided into main flows.
+                    </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/03-2fa-user-journey.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The enrolment on App </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">Enabling the second factor was possible straight from the mobile app installed on the desired device to be used as authentication. </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/04-2fa-enrolment.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The enrolment on Web </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">If the user would activate the two-factor from the browser the main difference with the app journey would be the scan of the QR code, necessary to pair the mobile device with the user account.  </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/05-2fa-enrolment-web.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The login on Web </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">To login into the web app with a 2FA active the user needed to authorize the access on the paired device. A notification would display the attempted login and the location. </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/06-2fa-login-web.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">Other options to login  </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">We considered the cases where the user could not receive a notification to login and added two additional functionalities on the mobile app.  </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/07-2fa-scan-code.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+
+
+
+
+
+  <Section>
+    <div class="wrapper mt-180 mb-180">
+        <div class="container-v">
+            <div class="jumbo-container">
+                <div class="jumbo-inner centered">
+                    <h2 class="jumbo t-animated op">Testing</h2>
+                </div>
+                <div class="paragraph-inner centered">
+                  <p class="paragraph p-animated op">The outcome of internal testing and feedback from a closed release to selected customers. </p>
+              </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The security page redesigned </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">With the increase of functionalities in the security screen, it became much harder for the user to easily scan and find the desired item in the list. I redesigned the screen taking in consideration layout, common used patterns and iconography. </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/08-2fa-security-ba.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">The app wasn't mentioned on web </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">During the first iteration of the flow, I assumed our users had already our app installed, and that they knew it was required to enable the two-factor authentication. Well, they didn't. At the beginning of the flow, I added another step inviting the user to download the app. </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/09-2fa-enrolment-web-ba.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">App confirmation was needed for the disenrollment </h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">If the user decided to disable the second factor, a notification would be sent to the paired device to confirm. We discovered that this was a logic coming from our third-party tool. This wasn't indeed mentioned in the modal and some of the early users were confused by that, by clicking the button nothing would really happen. I changed the illustrations, copy and removed the buttons to prompt the user to check their phone to confirm. </p>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="project-img-inner">
+                    <img src="../img/moneyfarm/10-2fa-disenrolment.webp" class="project-img i-animated op"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-80 mb-180">
+        <div class="container-v">
+            <div class="col half mb-40"> 
+                <div class="title-inner">
+                    <h2 class="title mb-8 t-animated op">Rooooool credits</h2>
+                </div>
+                <div class="paragraph-inner">
+                    <p class="paragraph p-animated op">
+
+                      Johannes Freund - Product Owner <br>
+                  
+                      Raimondo Pinna - Front-end developer  <br>
+                  
+                      Andrea Aresu - iOS developer  <br>
+                  
+                      Marco Cattaneo - Android Developer  <br>
+                  
+                      Richard Allalouf - Content
+                  
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </Section>
+
+  <Section>
+    <div class="wrapper mt-180 mb-180">
+        <div class="container-v centered">
+          <a href="ui-kits.html">
+            <div class="bg-next bg-ui">
+              <div class="paragraph-inner">
+                <h3 class="sub-header mb-24 p-animated op">Next</h3>
+              </div>
+              <div class="title-inner">
+                <h2 class="title t-animated op">UI Kits</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </Section>
+
+
+
+</main>
+</main>
+
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/CustomEase.min.js"></script>
+  <script src="../js/SplitText.min.js"></script> 
+  <script src="../js/loco.min.js"></script>
+  <script src="../main.js"></script>
+
+</body>
+
+</html>
