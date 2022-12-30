@@ -162,7 +162,6 @@ video::-webkit-media-controls-panel {
   font-style: normal;
   font-size: 8vw;
   line-height: 1;
-  letter-spacing: -3px !important;
   pointer-events: none;
   user-select: none;
   visibility:hidden;
