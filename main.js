@@ -236,7 +236,7 @@ function setupProjectCard() {
         stagger: 0.5,
         scrollTrigger: {
           trigger: target,
-          end: "bottom 20%",
+          end: "bottom 50%",
           scrub: 0.8,
         },
       }
