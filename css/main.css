@@ -25,6 +25,7 @@ video::-webkit-media-controls-panel {
 .brush-container {
   position: relative;
   height: 60vw;
+  margin: 0 10%;
 }
 
 .brush-inner {
