@@ -78,12 +78,6 @@ video::-webkit-media-controls-panel {
   width: 100%;
   height: auto;
 }
-
-.video-wrap {
-  overflow: hidden;
-  height: 300px;
-  width: 100%;
-}
 .swiper {
   width: 100%;
   cursor: move; /* fallback if grab cursor is unsupported */
@@ -186,6 +180,13 @@ video::-webkit-media-controls-panel {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
 }
 
 .bg-red {
