@@ -34,7 +34,7 @@ video::-webkit-media-controls-panel {
 .brush-container {
   position: relative;
   height: 60vw;
-  margin: 0 10%;
+  margin: 0 5%;
 }
 
 .brush-inner {
@@ -58,7 +58,7 @@ video::-webkit-media-controls-panel {
   left: 0;
   font-weight: 400;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 5rem;
   line-height: 1.4;
   margin: 0;
   opacity: 0;
@@ -689,7 +689,7 @@ body {
   letter-spacing: -0.5px;
   color: var(--text-color);
   background-color: var(--background-color);
-  height: 270vw;
+  padding-bottom: 80px;
 }
 
 a {
