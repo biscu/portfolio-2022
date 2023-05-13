@@ -31,6 +31,10 @@ video::-webkit-media-controls-panel {
   --background-color: #FFF9E4;  */
 }
 
+body {
+  --background-color: #151514;
+}
+
 .brush-container {
   position: relative;
   height: 60vw;
