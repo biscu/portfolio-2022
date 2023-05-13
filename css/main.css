@@ -160,7 +160,6 @@ video::-webkit-media-controls-panel {
 }
 
 .loader-inner {
-  height: 10lvh;
   overflow: hidden;
   padding-bottom: 2vw;
   padding-left: 2vw;
