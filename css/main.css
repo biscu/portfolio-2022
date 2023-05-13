@@ -473,6 +473,7 @@ body {
 
 .preview-img {
   width: 100%;
+  aspect-ratio: 10/6.51;
 }
 
 .project-title {
