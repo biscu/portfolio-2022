@@ -64,6 +64,7 @@ body {
   font-style: normal;
   font-size: 5rem;
   line-height: 1.4;
+  letter-spacing: -0.1rem;
   margin: 0;
   opacity: 0;
 }
